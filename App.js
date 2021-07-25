@@ -4,6 +4,7 @@ import { Provider } from 'react-redux'
 import { store } from './store/store'
 
 import DashBoardAcoes from './components/DashboardAcoes'
+import HeaderDashboard from './components/HeaderDashboard'
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       }}
     >
       <Provider store={store}>
+        <HeaderDashboard />
         <Text>Universal React with Expo</Text>
         <DashBoardAcoes />
       </Provider>
