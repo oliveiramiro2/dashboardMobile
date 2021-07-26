@@ -2,7 +2,6 @@ import * as React from "react";
 import { View, Text } from "react-native";
 import { connect } from 'react-redux'
 
-import { LineChart, XAxis, YAxis, CartesianGrid, Line } from 'recharts'
 import { changeCompany } from './../store/actions/TrocaEmpresa'
 
 export let intervalo = null                             // var p/ receber o setInterval e para-lo caso necessario
@@ -20,16 +19,7 @@ function DashBoardAcoes({ informacoes, changeCompany }){
 
     return (
         <View>
-            <Text>Dashboard</Text>
-            <LineChart width={700} height={400} data={informacoes.informacoes.map((valor)=>{
-                return valor.informacoes
-            })}>
-                <XAxis dataKey="companyName"/>
-                <YAxis />
-                <CartesianGrid stroke="#ccc" strokeDasharray="5 5"/>
-                <Line type="monotone" dataKey="latestPrice" stroke="#ff0000" />
-                <Line type="monotone" dataKey="high" stroke="#1a1aff" />
-            </LineChart>           
+            
         </View>
     )
 }

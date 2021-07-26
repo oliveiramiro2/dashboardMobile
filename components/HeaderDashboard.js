@@ -36,7 +36,6 @@ function HeaderDashboard({ simbolo, changeCompany, changeSymbol }){
         <View>
             <TextInput
                 onChangeText={ GetInputValue } 
-                autoFocus='true'
                 value={symbol.symbol}
             />
             <Button
