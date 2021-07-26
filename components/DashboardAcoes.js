@@ -1,6 +1,7 @@
 import * as React from "react";
 import { View, Text } from "react-native";
 import { connect } from 'react-redux'
+import { VictoryBar, VictoryChart, VictoryTheme } from "victory-native"
 
 import { changeCompany } from './../store/actions/TrocaEmpresa'
 
@@ -19,7 +20,14 @@ function DashBoardAcoes({ informacoes, changeCompany }){
 
     return (
         <View>
-            
+            {/*<VictoryLine data={informacoes.informacoes.map((valor)=>{
+                return valor.informacoes
+            })} />*/}
+            <VictoryChart width={350} theme={VictoryTheme.material}>
+                <VictoryBar data={informacoes.informacoes.map((valor)=>{
+                    return valor.informacoes
+                })} y="latestPrice" x="CompanyName" />
+            </VictoryChart>
         </View>
     )
 }

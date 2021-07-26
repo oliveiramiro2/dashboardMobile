@@ -21,7 +21,6 @@ function HeaderDashboard({ simbolo, changeCompany, changeSymbol }){
         if(symbol.symbol === simbolo){                              // que troca as informações da empresa
             choice = 0                                              //if para verificar se vai concatenar ou
         }else{                                                      //excluir o atual array de informacao
-            console.log('passou')
             choice = 1
             clearInterval(intervalo)                                // pararando a setInterval do dashboard
             changeSymbol(symbol.symbol)                             //trocando o simbolo no reducer e att pag                              
