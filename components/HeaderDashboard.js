@@ -31,7 +31,7 @@ function HeaderDashboard({ simbolo, changeCompany, changeSymbol }){
             )
         }
     }
-    console.log('header', symbol.symbol, simbolo)
+
     return(
         <View>
             <TextInput

@@ -3,8 +3,9 @@ import { View, Text } from "react-native";
 import { Provider } from 'react-redux'
 import { store } from './store/store'
 
-import DashBoardAcoes from './components/DashboardAcoes'
+import Dashboard from './components/DashboardCompleto'
 import HeaderDashboard from './components/HeaderDashboard'
+
 
 export default function App() {
   return (
@@ -17,8 +18,8 @@ export default function App() {
     >
       <Provider store={store}>
         <HeaderDashboard />
+        <Dashboard />
         <Text>Universal React with Expo</Text>
-        <DashBoardAcoes />
       </Provider>
     </View>
   );

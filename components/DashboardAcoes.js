@@ -17,7 +17,7 @@ function DashBoardAcoes({ informacoes, changeCompany }){
                 )
         }, 7000)
     }, [informacoes.simbolo.simbolo, changeCompany])
-    console.log(informacoes.informacoes)
+
     return (
         <View>
             <Text>Dashboard</Text>
