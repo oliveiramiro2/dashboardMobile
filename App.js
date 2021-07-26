@@ -5,16 +5,12 @@ import { store } from './store/store'
 
 import Dashboard from './components/DashboardCompleto'
 import HeaderDashboard from './components/HeaderDashboard'
-
+import styleHome from "./estilos/styleHome";
 
 export default function App() {
   return (
     <View
-      style={{
-        flex: 1,
-        justifyContent: "center",
-        alignItems: "center",
-      }}
+      style={styleHome.container}
     >
       <Provider store={store}>
         <HeaderDashboard />
