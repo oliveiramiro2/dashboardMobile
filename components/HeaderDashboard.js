@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import { changeCompany } from './../store/actions/TrocaEmpresa'
 import { changeSymbol } from './../store/actions/TrocaSimbolo'
 import { intervalo } from './DashboardAcoes'
-import { styleHome } from './../estilos/styleHome'
+import styleHome from './../estilos/styleHome'
 
 let choice = 0
 
@@ -33,20 +33,20 @@ function HeaderDashboard({ simbolo, changeCompany, changeSymbol }){
     }
 
     return(
-        <View>
+        <View style={styleHome.containerBusca}>
             <TextInput
-                onChangeText={ GetInputValue } 
-                value={symbol.symbol}
                 style={styleHome.buscador}
+                onChangeText={ GetInputValue } 
+                value={symbol.symbol}                
             />
             <Button
                 onPress={ SetCompanyInformation }
                 title="Pesquisar"
-                color="#841584"
             />
         </View>
     )
 }
+
 
 const mapStateToProps = state => {
     return { simbolo: state.simbolo }

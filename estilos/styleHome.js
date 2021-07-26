@@ -5,11 +5,18 @@ export default StyleSheet.create({
         flex:1,
         justifyContent: "center",
         alignItems: "center",
-        backgroundColor:'#ddd'
+        backgroundColor:"#ddd",
+    },
+    containerBusca:{
+        flex: 1,
+        flexDirection: 'row',
+        alignItems: 'center',
+        width: '95%',
+        margin: 5
     },
     buscador:{
         backgroundColor: "#fff",
-        marginBottom: 10,
-        marginTop: 10
-    },
+        width: '70%',
+        height: 35,
+    }
 })

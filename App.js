@@ -15,7 +15,7 @@ export default function App() {
       <Provider store={store}>
         <HeaderDashboard />
         <Dashboard />
-        <Text>Universal React with Expo</Text>
+        <Text>App React Native by Ramiro</Text>
       </Provider>
     </View>
   );
