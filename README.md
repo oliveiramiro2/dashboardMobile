@@ -15,10 +15,11 @@
   </a>
 </p>
 
-## 🚀 How to use
+
 
 <div align='center'>
-    <h1>Dashboard com api IEX</h1>
+    ## 🚀 How to use
+    <h2>Dashboard com api IEX</h2>
     <h4>Primeiro baixo o node</h4>
     <a href='https://nodejs.org/pt-br/download/'> Download Node.js </a>
     <hr />
