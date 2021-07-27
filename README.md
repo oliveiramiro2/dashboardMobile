@@ -1,4 +1,4 @@
-# My Universal React Project
+# My React-Native Project
 
 <p>
   <!-- iOS -->
@@ -17,28 +17,34 @@
 
 ## 🚀 How to use
 
-- Install packages with `yarn` or `npm install`.
-  - If you have native iOS code run `npx pod-install`
-- Run `yarn start` to start the bundler.
-- Open the project in a React runtime to try it:
-  - iOS: [Client iOS](https://itunes.apple.com/app/apple-store/id982107779)
-  - Android: [Client Android](https://play.google.com/store/apps/details?id=host.exp.exponent&referrer=blankexample)
-  - Web: Any web browser
-
-## Adding Native Code
-
-This project can be run from a web browser or the Expo client app. You may find that you want to add more native code later on. You can do this by ejecting the project and rebuilding it yourself.
-
-- Run `yarn eject` to create the native projects.
-- You can still run your project in the web browser or Expo client, you just won't be able to access any new native modules you add.
-
-## Publishing
-
-- Deploy the native app to the App store and Play store using this guide: [Deployment](https://docs.expo.io/distribution/app-stores/).
-- Deploy the website using this guide: [Web deployment](https://docs.expo.io/distribution/publishing-websites/).
-
-## 📝 Notes
-
-- Learn more about [Universal React](https://docs.expo.io/).
-- See what API and components are [available in the React runtimes](https://docs.expo.io/versions/latest/).
-- Find out more about developing apps and websites: [Guides](https://docs.expo.io/guides/).
+<div align='center'>
+    <h1>Dashboard com api IEX</h1>
+    <h4>Primeiro baixo o node</h4>
+    <a href='https://nodejs.org/pt-br/download/'> Download Node.js </a>
+    <hr />
+    <h4>Clone o repositório como nas imagens a seguir: </h4>
+    <p>Insira esta linha de comando na pasta desejada</p>	
+    <p>https://github.com/oliveiramiro2/dashboardMobile.git</p>
+    <img src='https://github.com/oliveiramiro2/dashboard/blob/main/imgsReadMe/download.png?raw=true' height='25' />
+    <br /><hr />
+    <p>Pegue uma pasta Node_modules de outro projeto seu ou crie um app react-native para pegar e coloque-a na pasta dashboardMobile</p>
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/nodeModules.png?raw=true' height='250' />
+    <br /><hr />
+    <p>Na pasta dashboardMobile instale os pacotes redux, react-redux, redux-promise, victory-native, react-native-svg e axios</p>  
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/yarnPacks.png?raw=true' height='25' />
+    <p>Não obtive sucesso adicionando as libs victory-native e react-native-svg com yarn apenas com npm</p>
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/npmPacks.png?raw=true' height='25' />
+    <br /><hr />
+    <p>Depois de tudo arrumado rode a aplicação na pasta do react-native em um celular</p>
+        <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/start.png?raw=true' />
+    <br /><hr />
+    <p>Aqui está as fotos de como a aplicação se parece</p>
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag1.jpeg?raw=true' height='350' />
+    <br />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag2.jpeg?raw=true' height='350' />
+    <br />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag3.jpeg?raw=true' height='350' />
+    <br />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag4.jpeg?raw=true' height='350' />
+    <br />
+</div>
