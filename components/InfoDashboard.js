@@ -7,7 +7,7 @@ function InfoDashboard({ informacoes }){
     // imprimindo as informacoes da empresa consultada
     const [data, setData] = React.useState(null)
     if(informacoes && informacoes[0] !== data)
-        setData(informacoes[0])                     //informacoes que serao usadas na descricao
+        setData(informacoes[informacoes.length-1])               //informacoes que serao usadas na descricao
 
     return (
         <SafeAreaView>

@@ -22,9 +22,11 @@ function DashBoardAcoes({ informacoes, changeCompany }){
     return (
         <SafeAreaView style={styleHome.containerGrafico}>
             <VictoryChart width={350} theme={VictoryTheme.material}>
-                <VictoryLine data={informacoes.informacoes.map((valor)=>{
-                    return valor.informacoes
-                })} y="latestPrice" x="CompanyName" />
+                <VictoryLine 
+                    data={informacoes.informacoes.map((valor)=>{ return valor.informacoes })} 
+                    y="latestPrice" 
+                    x="CompanyName" 
+                />
             </VictoryChart>
         </SafeAreaView>
     )
