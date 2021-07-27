@@ -39,13 +39,11 @@
     <p>Depois de tudo arrumado rode a aplicação na pasta do react-native em um celular</p>
         <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/start.png?raw=true' />
     <br /><hr />
-    <p>Aqui está as fotos de como a aplicação se parece</p>
+    <p><strong>Aqui está as fotos de como a aplicação se parece<strong></p>
     <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag1.png?raw=true' height='350' />
     <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag2.png?raw=true' height='350' />
-    <br />
-    <br />
     <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag3.png?raw=true' height='350' />
-    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag4.png?raw=true' height='350' />    
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag4.png?raw=true' height='350' /> 
     <br />
     <br />
 </div>
