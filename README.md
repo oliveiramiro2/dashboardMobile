@@ -18,7 +18,7 @@
 
 
 <div align='center'>
-    ## 🚀 How to use
+    <h1>## 🚀 How to use</h1>
     <h2>Dashboard com api IEX</h2>
     <h4>Primeiro baixo o node</h4>
     <a href='https://nodejs.org/pt-br/download/'> Download Node.js </a>
@@ -40,12 +40,12 @@
         <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/start.png?raw=true' />
     <br /><hr />
     <p>Aqui está as fotos de como a aplicação se parece</p>
-    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag1.jpeg?raw=true' height='350' />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag1.png?raw=true' height='350' />
     <br />
-    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag2.jpeg?raw=true' height='350' />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag2.png?raw=true' height='350' />
     <br />
-    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag3.jpeg?raw=true' height='350' />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag3.png?raw=true' height='350' />
     <br />
-    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag4.jpeg?raw=true' height='350' />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/imgsReadMe/pag4.png?raw=true' height='350' />
     <br />
 </div>
