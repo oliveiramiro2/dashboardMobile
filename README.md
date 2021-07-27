@@ -41,11 +41,11 @@
     <br /><hr />
     <p>Aqui está as fotos de como a aplicação se parece</p>
     <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag1.png?raw=true' height='350' />
-    <br />
     <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag2.png?raw=true' height='350' />
     <br />
-    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag3.png?raw=true' height='350' />
     <br />
-    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag4.png?raw=true' height='350' />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag3.png?raw=true' height='350' />
+    <img src='https://github.com/oliveiramiro2/dashboardMobile/blob/main/fotosEx/pag4.png?raw=true' height='350' />    
+    <br />
     <br />
 </div>
