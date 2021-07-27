@@ -1,6 +1,7 @@
 import React from 'react'
-import { View, Text } from "react-native";
+import { SafeAreaView, Text, View } from "react-native";
 import { connect } from 'react-redux'
+import styleHome from '../estilos/styleHome';
 
 function InfoDashboard({ informacoes }){
     // imprimindo as informacoes da empresa consultada
@@ -9,9 +10,10 @@ function InfoDashboard({ informacoes }){
         setData(informacoes[0])                     //informacoes que serao usadas na descricao
 
     return (
-        <View>
+        <SafeAreaView>
             {data ?
-                <View>
+                <View style={styleHome.containerInfo}>
+                    <Text>Informações da empresa:</Text>
                     <Text>Nome da empresa: {data.informacoes.companyName}</Text>
                     <Text>Símbolo da empresa: {data.informacoes.symbol}</Text>
                     <Text>Latest Price: {data.informacoes.latestPrice}</Text>
@@ -19,9 +21,11 @@ function InfoDashboard({ informacoes }){
                     <Text>Low: {data.informacoes.low}</Text>
                 </View>
             :
-                <Text>Procure um empresa pelos seu símbolo. Ex: aapl = Apple</Text>
+                <View style={styleHome.containerInfo}>
+                    <Text>Procure uma empresa pelo símbolo. Ex: aapl = Apple</Text>
+                </View>
             }
-        </View>
+        </SafeAreaView>
     )
 }
 

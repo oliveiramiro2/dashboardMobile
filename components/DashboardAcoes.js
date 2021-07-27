@@ -1,5 +1,5 @@
-import * as React from "react";
-import { View } from "react-native";
+import React from "react";
+import { SafeAreaView } from "react-native";
 import { connect } from 'react-redux'
 import { VictoryLine, VictoryChart, VictoryTheme } from "victory-native"
 import styleHome from "../estilos/styleHome";
@@ -20,13 +20,13 @@ function DashBoardAcoes({ informacoes, changeCompany }){
     }, [informacoes.simbolo.simbolo, changeCompany])
 
     return (
-        <View>
+        <SafeAreaView style={styleHome.containerGrafico}>
             <VictoryChart width={350} theme={VictoryTheme.material}>
                 <VictoryLine data={informacoes.informacoes.map((valor)=>{
                     return valor.informacoes
                 })} y="latestPrice" x="CompanyName" />
             </VictoryChart>
-        </View>
+        </SafeAreaView>
     )
 }
 

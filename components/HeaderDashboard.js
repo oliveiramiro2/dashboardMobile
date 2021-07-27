@@ -1,5 +1,5 @@
-import * as React from "react";
-import { View, TextInput, Button } from "react-native";
+import React from "react";
+import { TextInput, Button, KeyboardAvoidingView } from "react-native";
 import { connect } from 'react-redux'
 
 import { changeCompany } from './../store/actions/TrocaEmpresa'
@@ -33,17 +33,18 @@ function HeaderDashboard({ simbolo, changeCompany, changeSymbol }){
     }
 
     return(
-        <View style={styleHome.containerBusca}>
+        <KeyboardAvoidingView  style={styleHome.containerBusca}>            
             <TextInput
-                style={styleHome.buscador}
+                style={styleHome.inputSearch}
                 onChangeText={ GetInputValue } 
-                value={symbol.symbol}                
+                value={symbol.symbol} 
+                keyboardType='web-search'               
             />
             <Button
                 onPress={ SetCompanyInformation }
                 title="Pesquisar"
-            />
-        </View>
+            />            
+        </KeyboardAvoidingView>
     )
 }
 
